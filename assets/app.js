@@ -13,7 +13,7 @@ let startGame = () => {
   gameHasFinished = false;
   moleComeUp();
   timeleft.style.display = "block";
-  setTimeout(() => (gameHasFinished = true), 100000);
+  setTimeout(() => (gameHasFinished = true), 60000);
 };
 
 let randomTime = (max, min) => {
