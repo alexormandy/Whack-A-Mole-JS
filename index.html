@@ -15,11 +15,11 @@
     </head>
     <body>
       <div class="title">
-        <h1 class="animated fadeInDown"> WHACK-A-MOLE! <span >Score: <span class="scorecounter"> 1</span></h1></div> 
+        <h1 class="animated fadeInDown"> WHACK-A-MOLE! <span >Score: <span class="scorecounter"> </span></h1></div> 
 
             <button class="button" onclick="startGame()"> Click to Start </button> 
             
-            <h2 class="timeleft"> Time Left: </h2>
+            <h2 class="timeleft" id="countdown-option-end"><h2></h2>
 
             <div class="animated fadeIn game"> 
               <div class="hole hole1"> 
@@ -41,7 +41,11 @@
                 <div class="mole"></div>
               </div>
               </div>
-        
+
+        <script src="./assets/jquery-3.3.1.min.js"> </script>
         <script src="./assets/app.js"> </script>
+        <script src="./assets/app2.js"> </script>
+        <script src="./assets/countdown.js"> </script>
+       
     </body>
 </html>

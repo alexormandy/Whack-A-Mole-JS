@@ -13,7 +13,6 @@ let startGame = () => {
   gameHasFinished = false;
   moleComeUp();
   timeleft.style.display = "block";
-  countdown();
   setTimeout(() => (gameHasFinished = true), 100000);
 };
 
