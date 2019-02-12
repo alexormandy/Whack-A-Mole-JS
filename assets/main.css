@@ -52,7 +52,7 @@ h1 {
 
 .hole:after {
   display: block;
-  background: url(/images/field.png) bottom center no-repeat;
+  background: url("../images/field.png") bottom center no-repeat;
   background-size: contain;
   content: "";
   width: 100%;
@@ -63,7 +63,7 @@ h1 {
 }
 
 .mole {
-  background: url("/images/mrbump.png") bottom center no-repeat;
+  background: url("../images/mrbump.png") bottom center no-repeat;
   background-size: 60%;
   position: absolute;
   top: 100%;
