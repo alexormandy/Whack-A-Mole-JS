@@ -9,15 +9,19 @@
         <title>Alex's WHACK-A-MOLE</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="./assets/animate.css">
+        <link rel="stylesheet" href="./assets/main.css">
+        
     </head>
     <body>
       <div class="title">
-        <h1> WHACK-A-MOLE! <span >Score: <span class="scorecounter"> 1</span></h1></div> 
+        <h1 class="animated fadeInDown"> WHACK-A-MOLE! <span >Score: <span class="scorecounter"> 1</span></h1></div> 
 
             <button class="button" onclick="startGame()"> Click to Start </button> 
             
-            <div class="game"> 
+            <h2 class="timeleft"> Time Left: </h2>
+
+            <div class="animated fadeIn game"> 
               <div class="hole hole1"> 
                 <div class="mole"></div>
               </div>
@@ -38,6 +42,6 @@
               </div>
               </div>
         
-        <script src="app.js"> </script>
+        <script src="/assets/app.js"> </script>
     </body>
 </html>
