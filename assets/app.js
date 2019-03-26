@@ -41,9 +41,12 @@ let moleComeUp = () => {
   }, time);
 };
 
-let hitMole = () => {
+let hitMole = e => {
+  if (!e.isTrusted) return;
   scoreInternal++;
   score.textContent = scoreInternal;
 };
 
-moles.forEach(mole => mole.addEventListener("click", hitMole));
+moles.forEach(mole => {
+  return mole.addEventListener("click", hitMole);
+});

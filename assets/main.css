@@ -29,7 +29,7 @@ h1 {
 
 .game {
   width: 700px;
-  height: 500px;
+  height: 700px;
   background-color: ;
   display: flex;
   flex-wrap: wrap;
@@ -64,7 +64,7 @@ h1 {
 }
 
 .mole {
-  background: url("../images/mrbump.png") bottom center no-repeat;
+  background: url("../images/mole.png") bottom center no-repeat;
   background-size: 75%;
   position: absolute;
   top: 100%;
